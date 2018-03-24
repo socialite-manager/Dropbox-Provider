@@ -12,5 +12,5 @@ composer require socialite-manager/dropbox-provider
 use Socialite\Provider\DropboxProvider;
 use Socialite\Socialite;
 
-Socialite::driver(DropboxhProvider::class, $config);
+Socialite::driver(DropboxProvider::class, $config);
 ```
